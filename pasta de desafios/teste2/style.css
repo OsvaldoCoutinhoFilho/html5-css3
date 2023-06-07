@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to top, #D3DCF2,#7690CF,#48577D );
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+    font-style: italic;    
+}
+
+#especial{
+    color: rgba(166, 199, 20, 0.788);
+}
+
+li{
+    color: blue;
+}
+
+a{
+    color: #b33574;
+}
+
+
+p{
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+}
+#espec{
+    text-align: right;
+    color: rgb(240, 2, 2);
+    
+}
+.adicional{
+    color: rgb(156, 78, 230);
+}
+.add{
+    color: black;
+}

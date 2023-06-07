@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+
+header {
+    color: white;
+}
+body{
+    background-image: linear-gradient(to top, #45C4B0 , #038329c4);
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-family: 'Android', Helvetica, sans-serif;
+    font-weight: 3em;
+    font-style: normal;
+    background-color: rgba(192, 248, 248, 0.781);
+    color: rgb(6, 78, 6);
+}
+#tag{
+    background-color: white;
+    color:  rgb(6, 78, 6);
+}
+#intro{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#assuntos{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+   
+main{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    padding: 20px;
+}
+main img{
+    width: 100%;
+}
+#vide{
+    margin: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: rgba(5, 70, 5, 0.89);
+    
+}
+h3{ 
+    background-color: rgb(196, 229, 228);
+    color: black;
+    height: 300px;
+    border: solid 20px white;
+    
+}
+h3 > section{
+    margin-top: 10px;
+    
+}
+#pz{
+    padding: 10px;
+}
+
+
+footer{
+    background-color: white;
+    height: 100px;
+    font-weight: bold;
+    border: solid 20px white;
+    
+}
+footer > p{
+    margin: 0px;
+}
+#quebra{
+    display: inline
+}
+div{
+    width: 50%;
+}
