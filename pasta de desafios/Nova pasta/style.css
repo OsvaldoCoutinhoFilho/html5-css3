@@ -24,17 +24,39 @@
 }
 
 header{
+    background-image: linear-gradient(to top, var(--cor0), var(--cor01));
+    min-height: 150px;
     text-align: center;
     font-weight: bold;
     padding: 0px;
-    margin-bottom: 10px;
-
-    
+    margin-bottom: 10px;  
 }
+header h1{
+    font-family: var(--font-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+}
+
+header p{
+    font-family: var(--font-padrao);
+    font-size: 1em;
+    color: white;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+}
+
 nav{
     background-color: var(--cor01);
     padding: 10px;
-    box-shadow:0px 7px 9px rgba(49, 48, 48, 0.336)
+    
 }
 nav a{
     color:var(--cor0);
@@ -42,9 +64,10 @@ nav a{
     border-radius: 5px;
     font-weight: bold;
     padding: 0px;
+    box-shadow: 0px 7px 9px rgba(82, 81, 81, 0.267);
 }
 nav a:hover{
-    background-color: var(--cor02);
+    background-color: var(--cor0);
     color: var(--cor03);
     transition-duration: 0.5seg;
 }
@@ -61,6 +84,7 @@ main{
     font-family: var(--font-destaque);
     margin: auto;
     padding: 20px;
+    padding-top: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius:10px;
 
@@ -77,4 +101,38 @@ main p{
     text-align: justify;
     font-size: 1em;
     line-height: 2em;
+}
+main img{
+    width: 100%;
+}
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 0px 7px 9px rgba(167, 164, 164, 0.041);
+}
+footer a{
+    color: blue;
+    text-decoration: none;
+}
+aside ul{
+    font-weight: bold;
+    list-style-type:'\2714\ ';
+    list-style-position: inside;
+    columns: 2;
+    text-decoration: none;
+    margin: 5px;
+    padding: 0px;
+}
+main aside{
+    
+    background-color: white;
+    margin: -5px;
+    padding-top: 10px;
 }
